@@ -39,4 +39,15 @@ nav a {
 }
 
 /* ---------Media Query for Desktop nav bar-----------  */
-@media only screen and (min-width: 1073px) {}
+@media only screen and (min-width: 1073px) {
+
+    /*   for hiding toggle from mobile nav bar */
+    nav .mobile-toggle {
+        display: none;
+    }
+
+    /*   for hiding items from mobile nav bar */
+    .show-items {
+        display: none;
+    }
+}
