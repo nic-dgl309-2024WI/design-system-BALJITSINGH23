@@ -37,3 +37,6 @@ nav a {
     list-style-type: none;
 
 }
+
+/* ---------Media Query for Desktop nav bar-----------  */
+@media only screen and (min-width: 1073px) {}
