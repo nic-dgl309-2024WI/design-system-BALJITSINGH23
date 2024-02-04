@@ -14,3 +14,15 @@ nav ul {
     padding: 0;
     display: none;
 }
+
+/* global style for nav bar */
+nav {
+    text-align: right;
+    color: var(--clr-primary);
+    background-color: var(--clr-light);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
