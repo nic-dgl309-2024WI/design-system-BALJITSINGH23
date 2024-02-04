@@ -38,6 +38,16 @@ nav a {
 
 }
 
+/* Hover state */
+nav a:hover {
+    color: #555;
+}
+
+/* Active state */
+nav a.active {
+    color: #777;
+}
+
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {
 
