@@ -1,0 +1,16 @@
+/* ---------------mobile nav bar-----------  */
+
+/* Side Navbar (Show Items) */
+.show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
