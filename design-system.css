@@ -50,4 +50,18 @@ nav a {
     .show-items {
         display: none;
     }
+
+    /*   top nav bar style */
+    .top-nav-bar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: left;
+        padding: 20px;
+        gap: 50px;
+    }
 }
