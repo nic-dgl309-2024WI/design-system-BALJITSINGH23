@@ -26,3 +26,14 @@ nav a {
     text-decoration: none;
     color: var(--clr-primary);
 }
+
+.list-category {
+    padding: 8px 0;
+}
+
+/* Logo Style */
+.logo {
+    text-align: left;
+    list-style-type: none;
+
+}
