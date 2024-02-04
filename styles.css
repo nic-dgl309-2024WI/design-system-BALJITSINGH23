@@ -1,11 +1,16 @@
 /* Varibles for colors */
 :root {
-    --clr-primary: black;
-    --clr-secondary: rgb(54, 53, 53);
+    --clr-primary: #E6A875;
+    --clr-secondary: #913F08;
     --clr-accent: rgb(54, 53, 53);
-    --clr-light: #b6b5b5;
+    --clr-light: #CAE69E;
+    --clr-accent: #351355;
     --clr-white: white;
+    --clr-primaryText: #3C1263;
 }
+
+
+PRIMARY BG E6A875 2. PRIMARY TEXT 3C1263 3. secondary text FFFFFF 3. SECONDARY BG 913F08 An accent colour 320F52 Additional accent colours CAE69E
 
 /* Border Box Fix */
 html {
