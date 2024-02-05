@@ -39,6 +39,7 @@ ol {
 /* Utility classes for colors */
 .primary-bg {
     background-color: #E6A875;
+    height: 60px;
     /* Primary Background */
 }
 
