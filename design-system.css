@@ -39,13 +39,17 @@ nav a {
 }
 
 /* Hover state */
-nav a:hover {
-    color: #CAE69E;
-}
+
 
 /* Active state */
-nav a.active {
-    color: #CAE69E;
+nav a {
+    text-decoration: none;
+
+
+}
+
+nav a:hover {
+    color: #cae69e;
 }
 
 /* ---------Media Query for Desktop nav bar-----------  */
