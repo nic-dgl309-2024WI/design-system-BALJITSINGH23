@@ -18,13 +18,13 @@ nav ul {
 /* global style for nav bar */
 nav {
     text-align: right;
-    color: var(--clr-primary);
-    background-color: var(--clr-light);
+    color: var(--clr-light);
+    background-color: var(--clr-secondary);
 }
 
 nav a {
     text-decoration: none;
-    color: var(--clr-secondary);
+    color: var(--clr-white);
 }
 
 .list-category {
