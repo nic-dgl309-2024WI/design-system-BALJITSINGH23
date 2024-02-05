@@ -10,8 +10,6 @@
 }
 
 
-PRIMARY BG E6A875 2. PRIMARY TEXT 3C1263 3. secondary text FFFFFF 3. SECONDARY BG 913F08 An accent colour 320F52 Additional accent colours CAE69E
-
 /* Border Box Fix */
 html {
     box-sizing: border-box;
@@ -36,4 +34,35 @@ ul,
 ol {
     padding: 0;
     list-style: none;
+}
+
+/* Utility classes for colors */
+.primary-bg {
+    background-color: #E6A875;
+    /* Primary Background */
+}
+
+.primary-text {
+    color: #3C1263;
+    /* Primary Text */
+}
+
+.secondary-text {
+    color: #FFFFFF;
+    /* Secondary Text */
+}
+
+.secondary-bg {
+    background-color: #913F08;
+    /* Secondary Background */
+}
+
+.accent-color {
+    color: #320F52;
+    /* Accent Color */
+}
+
+.additional-accent-color {
+    color: #CAE69E;
+    /* Additional Accent Color */
 }
