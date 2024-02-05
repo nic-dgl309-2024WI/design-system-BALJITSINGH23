@@ -18,7 +18,7 @@ nav ul {
 /* global style for nav bar */
 nav {
     text-align: right;
-    color: var(--clr-light);
+    color: var(--clr-white);
     background-color: var(--clr-secondary);
 }
 
@@ -40,12 +40,12 @@ nav a {
 
 /* Hover state */
 nav a:hover {
-    color: #555;
+    color: #CAE69E;
 }
 
 /* Active state */
 nav a.active {
-    color: #777;
+    color: #CAE69E;
 }
 
 /* ---------Media Query for Desktop nav bar-----------  */
