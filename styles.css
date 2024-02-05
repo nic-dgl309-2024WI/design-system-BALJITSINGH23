@@ -58,12 +58,12 @@ ol {
     /* Secondary Background */
 }
 
-.accent-color {
-    color: #320F52;
+.accent-color-bg {
+    background-color: #320F52;
     /* Accent Color */
 }
 
-.additional-accent-color {
+.accent-color-text {
     color: #CAE69E;
     /* Additional Accent Color */
 }
