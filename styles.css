@@ -3,7 +3,7 @@
     --clr-primary: #E6A875;
     --clr-secondary: #913F08;
     --clr-accent: rgb(54, 53, 53);
-    --clr-light: #CAE69E;
+    --clr-light: #cae69e;
     --clr-accent: #351355;
     --clr-white: white;
     --clr-primaryText: #3C1263;
@@ -38,7 +38,7 @@ ol {
 
 /* Utility classes for colors */
 .primary-bg {
-    background-color: #E6A875;
+    background-color: #e9c4a7;
 
     /* Primary Background */
 }
