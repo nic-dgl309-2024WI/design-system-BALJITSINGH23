@@ -2,7 +2,7 @@
 :root {
     --clr-primary: #e9c4a7;
     --clr-secondary: #DC7983;
-    --clr-primaryText: #3C1263;
+    --clr-primaryText: #064260;
     --clr-secondaryText: #000000;
     --clr-light: #cae69e;
     --clr-dark: #351355;
@@ -45,7 +45,7 @@ ol {
 }
 
 .primary-text {
-    color: #3C1263;
+    color: #064260;
     /* Primary Text */
 }
 
