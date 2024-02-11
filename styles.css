@@ -67,10 +67,15 @@ ol {
     /* Additional Accent Color */
 }
 
-/* Variables for typefaces */
+/*        Variables for font-family, font-size, font-weight    */
 :root {
     --font-family-heading: 'Protest Riot', sans-serif;
     --font-family-body: 'Roboto', sans-serif;
+    --font-size-h1: 36px;
+    --font-size-h2: 30px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-body: 16px;
 
 
 }
