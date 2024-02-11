@@ -112,3 +112,16 @@ ol {
 .u-fs-body {
     font-size: var(--font-size-body);
 }
+
+/* Utility classes for Font weight */
+.u-fw-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.u-fw-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.u-fw-italic {
+    font-weight: var(--font-weight-italic)
+}
