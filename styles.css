@@ -71,11 +71,11 @@ ol {
 :root {
     --font-family-heading: 'Protest Riot', sans-serif;
     --font-family-body: 'Roboto', sans-serif;
-    --font-size-4: 28px;
-    --font-size-3: 24px;
-    --font-size-2: 20px;
-    --font-size-1: 18px;
-    --font-size-body: 16px;
+    --font-size-4: 32px;
+    --font-size-3: 28px;
+    --font-size-2: 24px;
+    --font-size-1: 20px;
+    --font-size-body: 18px;
 
     --font-weight-normal: normal;
     --font-weight-bold: bold;
