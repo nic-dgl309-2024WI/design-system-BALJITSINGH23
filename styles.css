@@ -77,5 +77,10 @@ ol {
     --font-size-h4: 20px;
     --font-size-body: 16px;
 
+    --font-weight-normal: normal;
+    --font-weight-bold: bold;
+    --font-weight-italic: italic;
+
+
 
 }
