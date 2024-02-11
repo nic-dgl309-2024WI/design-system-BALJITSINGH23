@@ -6,8 +6,6 @@
     --clr-secondaryText: #000000;
     --clr-light: #cae69e;
     --clr-dark: #351355;
-
-
 }
 
 
@@ -67,4 +65,12 @@ ol {
 .accent-color-text {
     color: #CAE69E;
     /* Additional Accent Color */
+}
+
+/* Variables for typefaces */
+:root {
+    --font-family-heading: 'Protest Riot', sans-serif;
+    --font-family-body: 'Roboto', sans-serif;
+
+
 }
