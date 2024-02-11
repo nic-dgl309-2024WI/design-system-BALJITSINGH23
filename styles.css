@@ -1,12 +1,13 @@
 /* Varibles for colors */
 :root {
-    --clr-primary: #E6A875;
-    --clr-secondary: #913F08;
-    --clr-accent: rgb(54, 53, 53);
-    --clr-light: #cae69e;
-    --clr-accent: #351355;
-    --clr-white: white;
+    --clr-primary: #e9c4a7;
+    --clr-secondary: #DC7983;
     --clr-primaryText: #3C1263;
+    --clr-secondaryText: #000000;
+    --clr-light: #cae69e;
+    --clr-dark: #351355;
+
+
 }
 
 
