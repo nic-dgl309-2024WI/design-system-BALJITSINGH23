@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 /*  typography style for */
-h2 {
+h1 {
     font-family: var(--font-family-heading);
     font-size: var(--font-size-3);
 
