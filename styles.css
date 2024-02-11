@@ -84,10 +84,10 @@ ol {
 }
 
 /* Utility classes for font family */
-.font-heading {
+.u-ff-heading {
     font-family: var(--font-family-heading);
 }
 
-.font-body {
+.u-ff-body {
     font-family: var(--font-family-body);
 }
