@@ -67,7 +67,7 @@ ol {
     /* Additional Accent Color */
 }
 
-/*        Variables for font-family, font-size, font-weight    */
+/*        Variables for font-family, font-size, font-weight, line height and letter spacing   */
 :root {
     --font-family-heading: 'Protest Riot', sans-serif;
     --font-family-body: 'Roboto', sans-serif;
@@ -81,6 +81,14 @@ ol {
     --font-weight-bold: bold;
     --font-weight-italic: italic;
     --font-weight-medium: 500;
+
+    --line-height-normal: normal;
+    --line-height-heading: 1.2;
+    --line-height-body: 1.5;
+
+    --letter-spacing-normal: normal;
+    --letter-spacing-small: 1px;
+    --letter-spacing-medium: 2px;
 
 }
 
