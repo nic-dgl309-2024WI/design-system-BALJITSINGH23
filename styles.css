@@ -81,6 +81,13 @@ ol {
     --font-weight-bold: bold;
     --font-weight-italic: italic;
 
+}
 
+/* Utility classes for font family */
+.font-heading {
+    font-family: var(--font-family-heading);
+}
 
+.font-body {
+    font-family: var(--font-family-body);
 }
