@@ -1,11 +1,14 @@
 /* Varibles for colors */
 :root {
-    --clr-primary: #e9c4a7;
-    --clr-secondary: #DC7983;
-    --clr-primaryText: #064260;
-    --clr-secondaryText: #000000;
-    --clr-light: #cae69e;
-    --clr-dark: #351355;
+    --clr-primary-bg: #e9c4a7;
+    --clr-secondary-bg: #E67079;
+    --clr-tonal-secondary-bg: #EB8D94;
+    --clr-lighttonal-secondary-bg: #F5C7CB;
+    --clr-primaryText: #053146;
+    --clr-secondaryText: #031814;
+    --clr-light: #d9eeb7;
+    --clr-white-text: #FFFFFF;
+    --clr-dark: #093658;
 }
 
 
@@ -37,33 +40,41 @@ ol {
 
 /* Utility classes for colors */
 .primary-bg {
-    background-color: #e9c4a7;
+    background-color: var(--clr-primary-bg);
 
     /* Primary Background */
 }
 
 .primary-text {
-    color: #064260;
+    color: var(--clr-primaryText);
     /* Primary Text */
 }
 
 .secondary-text {
-    color: #000000;
+    color: var(--clr-secondaryText);
     /* Secondary Text */
 }
 
 .secondary-bg {
-    background-color: #DC7983;
+    background-color: var(--clr-secondary-bg);
     /* Secondary Background */
 }
 
+.secondary-tonal-bg {
+    background-color: var(--clr-tonal-secondary-bg);
+}
+
+.secondary-lighttonal-bg {
+    background-color: var(--clr-lighttonal-secondary-bg);
+}
+
 .accent-color-bg {
-    background-color: #320F52;
+    background-color: var(--clr-dark);
     /* Accent Color */
 }
 
 .accent-color-text {
-    color: #CAE69E;
+    color: var(--clr-white-text);
     /* Additional Accent Color */
 }
 
