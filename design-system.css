@@ -40,25 +40,23 @@ nav a {
 
 /* Hover state */
 
-
-/* Active state */
 nav a {
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #cae69e;
+    color: var(--clr-light);
 }
 
 
 /*   TABLE */
-table {
+.table {
 
     border-collapse: collapse;
 }
 
-th,
-td {
+.table__header,
+.table__data {
     border: 1px solid #000;
     padding: 8px;
     text-align: left;
