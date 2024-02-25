@@ -16,13 +16,13 @@ nav ul {
 }
 
 /* global style for nav bar */
-nav {
+.navbar {
     text-align: right;
     color: var(--clr-secondaryText);
     background-color: var(--clr-secondary);
 }
 
-nav a {
+.navbar__link {
     text-decoration: none;
     color: var(--clr-secondaryText);
 }
@@ -40,18 +40,18 @@ nav a {
 
 /* Hover state */
 
-nav a {
+.navbar__link {
     text-decoration: none;
 }
 
-nav a:hover {
+.navbar__link:hover {
     color: var(--clr-light);
 }
 
 
 /*   TABLE */
 .table {
-
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
         gap: 50px;
     }
 
-    nav ul {
+    .navbar__list {
         display: block;
         text-align: left;
         padding: 20px;
