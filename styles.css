@@ -39,43 +39,46 @@ ol {
 }
 
 /* Utility classes for colors */
-.primary-bg {
+.u-primary-bg {
     background-color: var(--clr-primary-bg);
-
     /* Primary Background */
 }
 
-.primary-text {
+.u-primary-text {
     color: var(--clr-primaryText);
     /* Primary Text */
 }
 
-.secondary-text {
+.u-secondary-text {
     color: var(--clr-secondaryText);
     /* Secondary Text */
 }
 
-.secondary-bg {
+.u-secondary-bg {
     background-color: var(--clr-secondary-bg);
     /* Secondary Background */
 }
 
-.secondary-tonal-bg {
+.u-secondary-tonal-bg {
     background-color: var(--clr-tonal-secondary-bg);
 }
 
-.secondary-lighttonal-bg {
+.u-secondary-lighttonal-bg {
     background-color: var(--clr-lighttonal-secondary-bg);
 }
 
-.accent-color-bg {
+.u-accent-color-bg {
     background-color: var(--clr-dark);
     /* Accent Color */
 }
 
-.accent-color-text {
+.u-accent-color-text {
     color: var(--clr-white-text);
     /* Additional Accent Color */
+}
+
+.u-extra-color-text {
+    color: var(--clr-light);
 }
 
 /* general typeface css */
