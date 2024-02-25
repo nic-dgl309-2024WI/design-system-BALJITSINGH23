@@ -49,9 +49,20 @@ ol {
     /* Primary Text */
 }
 
+/*  for primary text swatch */
+.u-swatch-primary-text {
+    background-color: var(--clr-primaryText);
+    /* for swatch of primary text color */
+}
+
 .u-secondary-text {
     color: var(--clr-secondaryText);
     /* Secondary Text */
+}
+
+.u-swatch-secondary-text {
+    background-color: var(--clr-secondaryText);
+    /* for swatch of secondary bg color */
 }
 
 .u-secondary-bg {
@@ -61,10 +72,12 @@ ol {
 
 .u-secondary-tonal-bg {
     background-color: var(--clr-tonal-secondary-bg);
+    /* seconday color with tonal background */
 }
 
 .u-secondary-lighttonal-bg {
     background-color: var(--clr-lighttonal-secondary-bg);
+    /* seconday color with light tonal background */
 }
 
 .u-accent-color-bg {
@@ -77,8 +90,18 @@ ol {
     /* Additional Accent Color */
 }
 
+.u-swatch-accent-color-text {
+    background-color: var(--clr-white-text);
+    /* for swatch Accent Color */
+}
+
 .u-extra-color-text {
     color: var(--clr-light);
+}
+
+.u-swatch-extra-color-text {
+    background-color: var(--clr-light);
+    /* for swatch of extra color */
 }
 
 /* general typeface css */
