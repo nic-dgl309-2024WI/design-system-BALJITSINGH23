@@ -206,6 +206,87 @@ ol {
     letter-spacing: var(--letter-spacing-large);
 }
 
+/* ---------------------------- Utility classes for margins -----------------------------*/
+/* Axis: top */
+.l-mt-1 {
+    margin-top: 1rem;
+}
+
+/* 16px */
+
+.l-mt-125 {
+    margin-top: 1.25rem;
+}
+
+/* 20px */
+
+
+.l-mt-15 {
+    margin-top: 1.5rem;
+}
+
+/* 24px */
+
+/* Axis: bottom */
+.l-mb-1 {
+    margin-bottom: 1rem;
+}
+
+/* 16px */
+
+
+.l-mb-125 {
+    margin-bottom: 1.25rem;
+}
+
+/* 20px */
+
+.l-mb-15 {
+    margin-bottom: 1.5rem;
+}
+
+/* 24px */
+
+/* Axis: left */
+.l-ml-1 {
+    margin-left: 1rem;
+}
+
+/* 16px */
+
+
+.l-ml-125 {
+    margin-left: 1.25rem;
+}
+
+/* 20px */
+
+.l-ml-15 {
+    margin-left: 1.5rem;
+}
+
+/* 24px */
+
+/* Axis: right */
+.l-mr-1 {
+    margin-right: 1rem;
+}
+
+/* 16px */
+
+.l-mr-125 {
+    margin-right: 1.25rem;
+}
+
+/* 20px */
+
+.l-mr-15 {
+    margin-right: 1.5rem;
+}
+
+/* 24px */
+
+
 /* general typeface css */
 h1 {
     font-family: var(--font-family-heading);
