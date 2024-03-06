@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="design-system.js"></script>
   </head>
-  <body>
+  <body class="l-flex-desktop">
     <header>
       <!--          main navigation of page -->
       <nav class="navbar">
@@ -166,122 +166,94 @@
     </header>
     <!-------------------------------main content is here---------------------------------->
     <main>
-      <!--Utility classes for flex-->
-      <h3>Flex Layout Utility Classes</h3>
+      <div class="l-flex-desktop l-flex--between-desktop l-grid--gap-3rem">
+        <!--Utility classes for flex-->
+        <div>
+          <h3>Flex Layout Utility Classes</h3>
 
-      <table>
-        <tr>
-          <th class="table__header">Class Name</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex</td>
-          <td class="table__data">Sets display property to flex.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--row</td>
-          <td class="table__data">Sets flex direction to row.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--column</td>
-          <td class="table__data">Sets flex direction to column.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--wrap</td>
-          <td class="table__data">Sets flex wrap to wrap.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--nowrap</td>
-          <td class="table__data">Sets flex wrap to nowrap.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--reverse</td>
-          <td class="table__data">Reverses flex direction to row-reverse.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--center</td>
-          <td class="table__data">Aligns items to the center.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--between</td>
-          <td class="table__data">Space items evenly with space-between.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--around</td>
-          <td class="table__data">Space items evenly with space-around.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--start</td>
-          <td class="table__data">Aligns items to the start.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--end</td>
-          <td class="table__data">Aligns items to the end.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--align-start</td>
-          <td class="table__data">Aligns items to the start.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-flex--align-end</td>
-          <td class="table__data">Aligns items to the end.</td>
-        </tr>
-      </table>
-      <!--Utility classes for grid-->
-      <h2>Grid Layout Utility Classes</h2>
+          <table>
+            <tr>
+              <th class="table__header">Class Name</th>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--row</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--column</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--wrap</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--nowrap</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--reverse</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--center</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--between</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--around</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--start</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--end</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--align-start</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-flex--align-end</td>
+            </tr>
+          </table>
+        </div>
+        <!--Utility classes for grid-->
+        <div>
+          <h3>Grid Layout Utility Classes</h3>
 
-      <table>
-        <tr>
-          <th class="table__header">Class Name</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid</td>
-          <td class="table__data">Sets display property to grid.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--cols-2</td>
-          <td class="table__data">
-            Sets grid template columns to repeat(2, 1fr).
-          </td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--cols-3</td>
-          <td class="table__data">
-            Sets grid template columns to repeat(3, 1fr).
-          </td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--cols-4</td>
-          <td class="table__data">
-            Sets grid template columns to repeat(4, 1fr).
-          </td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--rows-2</td>
-          <td class="table__data">
-            Sets grid template rows to repeat(2, 1fr).
-          </td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--rows-3</td>
-          <td class="table__data">
-            Sets grid template rows to repeat(3, 1fr).
-          </td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--gap-1rem</td>
-          <td class="table__data">Sets gap between grid items to 1rem.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--gap-2rem</td>
-          <td class="table__data">Sets gap between grid items to 2rem.</td>
-        </tr>
-        <tr>
-          <td class="table__data">l-grid--gap-3rem</td>
-          <td class="table__data">Sets gap between grid items to 3rem.</td>
-        </tr>
-      </table>
+          <table>
+            <tr>
+              <th class="table__header">Class Name</th>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--cols-2</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--cols-3</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--cols-4</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--rows-2</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--rows-3</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--gap-1rem</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--gap-2rem</td>
+            </tr>
+            <tr>
+              <td class="table__data">l-grid--gap-3rem</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </main>
   </body>
 </html>
