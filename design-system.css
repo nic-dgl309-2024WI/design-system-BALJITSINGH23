@@ -112,7 +112,7 @@ nav ul {
     .navbar__list {
         display: block;
         text-align: left;
-        padding: 20px;
+
         gap: 50px;
     }
 }
