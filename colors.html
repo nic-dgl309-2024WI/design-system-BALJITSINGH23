@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="design-system.js"></script>
   </head>
-  <body>
+  <body class="l-flex-desktop">
     <header>
       <!--          main navigation of page -->
       <nav class="navbar">
@@ -31,7 +31,7 @@
         <div class="nav">
           <ul id="nav-items" class="navbar__list">
             <!--top nav bar -->
-            <div class="top-nav-bar u-secondary-bg">
+            <div class="top-nav-bar u-secondary-bg" style="width: 100%">
               <li>
                 <a
                   class="u-ff-body u-fs-1 u-fw-medium navbar__link"
@@ -189,11 +189,6 @@
           <td class="table__data">All headings</td>
         </tr>
       </table>
-      <!-- EAXMPLE FOR SWATCHES-->
-      <div class="u-primary-bg u-primary-text">
-        Example: All headings
-        <div>Ratio: 8.42:1 Pass</div>
-      </div>
       <!-- Table for secondary colors -->
       <h3>Secondary colors</h3>
       <table class="table">
@@ -232,19 +227,6 @@
           <td class="table__data">All paragraphs</td>
         </tr>
       </table>
-      <!-- EAXMPLE FOR SWATCHES-->
-      <div class="u-secondary-bg u-secondary-text">
-        Example: All paragraphs
-        <div>Ratio: 6.07:1 Pass</div>
-      </div>
-      <div class="u-secondary-tonal-bg u-secondary-text">
-        Example: All paragraphs
-        <div>Ratio: 7.66:1 Pass</div>
-      </div>
-      <div class="u-secondary-lighttonal-bg u-secondary-text">
-        Example: All paragraphs
-        <div>Ratio: 12.15:1 Pass</div>
-      </div>
       <!-- Table for accent colors -->
       <h3>Accent colors</h3>
       <table class="table">
@@ -269,12 +251,6 @@
           <td class="table__data">Text for all CTA's and announcemnets</td>
         </tr>
       </table>
-      <!-- EAXMPLE FOR SWATCHES-->
-      <div class="u-accent-color-bg u-accent-color-text">
-        Example: ALL Call to actions
-        <div>Ratio: 12.49:1 Pass</div>
-      </div>
-
       <!-- Table for extra color text -->
       <h3>Extra color text</h3>
       <table class="table">
@@ -294,6 +270,35 @@
           <td class="table__data">For hovers and others</td>
         </tr>
       </table>
+      <!-- EAXMPLE FOR SWATCHES-->
+      <div class="l-flex-desktop l-flex--between-desktop">
+        <div class="u-primary-bg u-primary-text">
+          Example: All headings
+          <div>Ratio: 8.42:1 Pass</div>
+        </div>
+        <!-- EAXMPLE FOR SWATCHES-->
+        <div class="u-accent-color-bg u-accent-color-text">
+          Example: ALL Call to actions
+          <div>Ratio: 12.49:1 Pass</div>
+        </div>
+      </div>
+      <!-- EAXMPLE FOR SWATCHES-->
+      <div class="l-flex-desktop l-flex--between-desktop">
+        <div class="u-secondary-bg u-secondary-text">
+          Example: All paragraphs
+          <div>Ratio: 6.07:1 Pass</div>
+        </div>
+        <div class="u-secondary-tonal-bg u-secondary-text">
+          Example: All paragraphs
+          <div>Ratio: 7.66:1 Pass</div>
+        </div>
+      </div>
+      <div
+        class="swatch_example__width u-secondary-lighttonal-bg u-secondary-text l-flex--center-desktop"
+      >
+        Example: All paragraphs
+        <div>Ratio: 12.15:1 Pass</div>
+      </div>
     </main>
   </body>
 </html>

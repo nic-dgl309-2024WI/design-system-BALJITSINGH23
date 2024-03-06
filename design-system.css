@@ -68,6 +68,10 @@ nav ul {
     width: 100px;
 }
 
+.swatch_example__width {
+    width: 300px;
+}
+
 /*  typography style for */
 
 
@@ -97,6 +101,7 @@ nav ul {
         justify-content: flex-end;
         gap: 50px;
 
+
     }
 
     .navbar {
@@ -115,4 +120,7 @@ nav ul {
 
         gap: 50px;
     }
+
+    .main-container_flex {}
+
 }
