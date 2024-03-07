@@ -330,6 +330,13 @@ ol {
 
 /* 24px */
 
+
+/* additional left margin */
+.l-ml-Add {
+    margin-left: 7.5rem;
+}
+
+
 /*------------------------------- Utility classes for  padding -----------------------------------*/
 /* Axis: top */
 .l-pt-1 {
@@ -452,6 +459,13 @@ ol {
 
 /* 24px */
 
+/* additional left padding */
+.l-pl-Add {
+    padding-left: 7.5rem;
+}
+
+/*  120px  */
+
 /*-------------------------------- Flex Layout---------------------------------- */
 .l-flex {
     display: flex;
@@ -550,7 +564,7 @@ ol {
 
 
 
-/* Mobile container */
+/*CLASSE FOR MOBILE CONTAINER */
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -588,71 +602,71 @@ div {
 
 @media only screen and (min-width: 1073px) {
 
-
+    /*    CLASSES FOR CONTAINERS  */
 
     .container {
         max-width: 1000px;
     }
-}
-
-.constrained-container {
-    max-width: 1073px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-}
 
 
-.l-flex-desktop {
-    display: flex;
-}
+    .constrained-container {
+        max-width: 1073px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
 
-.l-flex--row-desktop {
-    flex-direction: row;
-}
+    /* CLASSES FOR FLEX FOR DESKTOP */
+    .l-flex-desktop {
+        display: flex;
+    }
 
-.l-flex--column-desktop {
-    flex-direction: column;
-}
+    .l-flex--row-desktop {
+        flex-direction: row;
+    }
 
-.l-flex--wrap-desktop {
-    flex-wrap: wrap;
-}
+    .l-flex--column-desktop {
+        flex-direction: column;
+    }
 
-.l-flex--nowrap-desktop {
-    flex-wrap: nowrap;
-}
+    .l-flex--wrap-desktop {
+        flex-wrap: wrap;
+    }
 
-.l-flex--reverse-desktop {
-    flex-direction: row-reverse;
-}
+    .l-flex--nowrap-desktop {
+        flex-wrap: nowrap;
+    }
 
-.l-flex--center-desktop {
-    justify-content: center;
-    align-items: center;
-}
+    .l-flex--reverse-desktop {
+        flex-direction: row-reverse;
+    }
 
-.l-flex--between-desktop {
-    justify-content: space-between;
-}
+    .l-flex--center-desktop {
+        justify-content: center;
+        align-items: center;
+    }
 
-.l-flex--around-desktop {
-    justify-content: space-around;
-}
+    .l-flex--between-desktop {
+        justify-content: space-between;
+    }
 
-.l-flex--start-desktop {
-    justify-content: flex-start;
-}
+    .l-flex--around-desktop {
+        justify-content: space-around;
+    }
 
-.l-flex--end-desktop {
-    justify-content: flex-end;
-}
+    .l-flex--start-desktop {
+        justify-content: flex-start;
+    }
 
-.l-flex--align-start-desktop {
-    align-items: flex-start;
-}
+    .l-flex--end-desktop {
+        justify-content: flex-end;
+    }
 
-.l-flex--align-end-desktop {
-    align-items: flex-end;
-}
+    .l-flex--align-start-desktop {
+        align-items: flex-start;
+    }
+
+    .l-flex--align-end-desktop {
+        align-items: flex-end;
+    }
 }
