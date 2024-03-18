@@ -337,6 +337,10 @@ ol {
 
 
 
+.l-pt-Add {
+    padding-top: 7.5rem;
+}
+
 
 /*------------------------------- Utility classes for padding -----------------------------------*/
 /* Axis: top */
@@ -354,6 +358,10 @@ ol {
 
 .l-pt-1-5 {
     padding-top: 1.5rem;
+}
+
+.l-pt-3 {
+    padding-top: 3.3rem;
 }
 
 /* 24px */
@@ -671,11 +679,7 @@ div {
 
     /*  120px  */
 
-    .l-pt-Add {
-        padding-left: 7.5rem;
-    }
 
-    /*  120px  */
 
 
     .l-pl-add-desktop {
@@ -690,5 +694,6 @@ div {
     .l-mt-Add {
         margin-top: 7.5rem;
     }
+
 
 }
