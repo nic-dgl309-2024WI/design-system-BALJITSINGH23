@@ -27,11 +27,11 @@
     --font-weight-italic: italic;
     --font-weight-medium: 500;
 
-    --line-height-normal: 1rem;
+    --line-height-normal: 0.8rem;
     --line-height-heading: 1.2;
     --line-height-body: 1.5;
 
-    --letter-spacing-normal: 0.8rem;
+    --letter-spacing-normal: 0.6rem;
     --letter-spacing-small: 1px;
     --letter-spacing-medium: 2px;
 
@@ -336,14 +336,6 @@ ol {
 /* 24px */
 
 
-/* additional left margin */
-.l-ml-Add {
-    margin-left: 7.5rem;
-}
-
-.l-mt-Add {
-    margin-top: 7.5rem;
-}
 
 
 /*------------------------------- Utility classes for padding -----------------------------------*/
@@ -467,19 +459,6 @@ ol {
 }
 
 /* 24px */
-
-/* additional left padding */
-.l-pl-Add {
-    padding-left: 7.5rem;
-}
-
-/*  120px  */
-
-.l-pt-Add {
-    padding-left: 7.5rem;
-}
-
-/*  120px  */
 
 /*-------------------------------- Flex Layout---------------------------------- */
 .l-flex {
@@ -685,7 +664,31 @@ div {
         align-items: flex-end;
     }
 
-    .l-pl-add-desktop {
-        padding-left: 68.75rem;
+    /* additional left padding */
+    .l-pl-Add {
+        padding-left: 7.5rem;
     }
+
+    /*  120px  */
+
+    .l-pt-Add {
+        padding-left: 7.5rem;
+    }
+
+    /*  120px  */
+
+
+    .l-pl-add-desktop {
+        padding-left: 60rem;
+    }
+
+    /* additional left margin */
+    .l-ml-Add {
+        margin-left: 7.5rem;
+    }
+
+    .l-mt-Add {
+        margin-top: 7.5rem;
+    }
+
 }
