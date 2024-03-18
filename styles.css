@@ -19,6 +19,7 @@
     --font-size-3: 32px;
     --font-size-2: 24px;
     --font-size-1: 20px;
+    --font-size-0: 16px;
     --font-size-body: 18px;
 
     --font-weight-normal: normal;
@@ -53,7 +54,7 @@ p,
 figure,
 picture {
     margin: 0;
-    line-height: 1.5rem;
+
 }
 
 /* Remove Padding from Lists */
@@ -154,6 +155,10 @@ ol {
 
 .u-fs-1 {
     font-size: var(--font-size-1);
+}
+
+.u-fs-0 {
+    font-size: var(--font-size-0);
 }
 
 .u-fs-body {
