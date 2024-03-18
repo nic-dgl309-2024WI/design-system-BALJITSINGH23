@@ -88,7 +88,10 @@ nav ul {
 /* style for about me page */
 .content {
     text-align: center;
-    list-style-type: decimal;
+}
+
+main {
+    text-align: center;
 }
 
 
