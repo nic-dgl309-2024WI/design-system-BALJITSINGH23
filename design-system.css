@@ -85,6 +85,13 @@ nav ul {
     padding-left: 20px;
 }
 
+/* style for about me page */
+.content {
+    text-align: center;
+    list-style-type: decimal;
+}
+
+
 
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {

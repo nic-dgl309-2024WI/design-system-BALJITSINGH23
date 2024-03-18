@@ -361,7 +361,7 @@ ol {
 }
 
 .l-pt-3 {
-    padding-top: 3.3rem;
+    padding-top: 3.9rem;
 }
 
 /* 24px */
@@ -442,6 +442,16 @@ ol {
 .l-px-1-5 {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+}
+
+.l-px-5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.l-px-8 {
+    padding-left: 18rem;
+    padding-right: 18rem;
 }
 
 /* 24px */
