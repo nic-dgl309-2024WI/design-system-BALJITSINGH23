@@ -27,11 +27,11 @@
     --font-weight-italic: italic;
     --font-weight-medium: 500;
 
-    --line-height-normal: normal;
+    --line-height-normal: 1rem;
     --line-height-heading: 1.2;
     --line-height-body: 1.5;
 
-    --letter-spacing-normal: normal;
+    --letter-spacing-normal: 0.8rem;
     --letter-spacing-small: 1px;
     --letter-spacing-medium: 2px;
 
@@ -341,8 +341,12 @@ ol {
     margin-left: 7.5rem;
 }
 
+.l-mt-Add {
+    margin-top: 7.5rem;
+}
 
-/*------------------------------- Utility classes for  padding -----------------------------------*/
+
+/*------------------------------- Utility classes for padding -----------------------------------*/
 /* Axis: top */
 .l-pt-1 {
     padding-top: 1rem;
@@ -466,6 +470,12 @@ ol {
 
 /* additional left padding */
 .l-pl-Add {
+    padding-left: 7.5rem;
+}
+
+/*  120px  */
+
+.l-pt-Add {
     padding-left: 7.5rem;
 }
 
@@ -673,5 +683,9 @@ div {
 
     .l-flex--align-end-desktop {
         align-items: flex-end;
+    }
+
+    .l-pl-add-desktop {
+        padding-left: 68.75rem;
     }
 }
