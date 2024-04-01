@@ -478,6 +478,11 @@ ol {
 
 /* 24px */
 
+.l-py-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 /*-------------------------------- Flex Layout---------------------------------- */
 .l-flex {
     display: flex;
@@ -618,9 +623,11 @@ div {
 .show-items {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left
+    align-items: flex-end;
+    text-align: left;
+
 }
+
 
 nav ul {
     list-style-type: none;
@@ -634,7 +641,6 @@ nav ul {
     text-align: right;
     color: var(--clr-secondaryText);
     background-color: var(--clr-secondary-bg);
-    position: fixed;
     width: 100%;
 }
 
@@ -765,11 +771,12 @@ nav ul {
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                         STYLE OUTBACK NURSURY HOMEPAGE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     /*      STYLE FOR HEADER    */
     /*   for hiding toggle from mobile nav bar */
-    nav .mobile-toggle {
+    .mobile-toggle {
         display: none;
     }
 
     /*   for hiding items from mobile nav bar */
+
     .show-items {
         display: none;
     }
