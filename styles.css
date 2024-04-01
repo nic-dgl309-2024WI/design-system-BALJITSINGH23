@@ -681,9 +681,7 @@ nav ul {
 }
 
 /* products section */
-.products-content {
-    text-align: center;
-}
+
 
 /*  cards for products */
 
@@ -702,6 +700,12 @@ nav ul {
     width: 100%;
     height: auto;
 }
+
+.icon {
+    text-align: center;
+}
+
+
 
 
 
