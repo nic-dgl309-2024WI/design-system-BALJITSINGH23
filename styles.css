@@ -680,13 +680,13 @@ nav ul {
     color: var(--clr-light);
 }
 
+/* products section */
+.products-content {
+    text-align: center;
+}
+
 /*  cards for products */
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .card {
     width: 200px;
@@ -695,6 +695,7 @@ nav ul {
     border-radius: 8px;
     overflow: hidden;
     background-color: var(--clr-primary-bg);
+
 }
 
 .card-img {
@@ -841,6 +842,11 @@ nav ul {
 
 
     }
+
+    /*  cards for products */
+
+
+
 
 
 }
