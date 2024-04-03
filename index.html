@@ -21,6 +21,11 @@
       src="https://kit.fontawesome.com/adc216694a.js"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -69,7 +74,7 @@
     </header>
     <!--==================== main content of homepage =====================-->
     <main>
-      <section class="u-secondary-lighttonal-bg">
+      <section class="u-secondary-lighttonal-bg hero">
         <div class="l-py-1-5">
           <h1 class="u-fs-4">Outback Nursury</h1>
           <h2 class="u-fs-3">Where seeds of imagination bloosom</h2>
@@ -79,6 +84,47 @@
             Grab your happiness
           </a>
         </div>
+
+        <!-- Slider -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">1</div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">2</div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">3</div>
+            <!-- Add more slides here if needed -->
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Navigation Arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- Link Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".swiper-container", {
+            // Optional parameters
+            direction: "vertical",
+            loop: true,
+
+            // If you need pagination
+            pagination: {
+              el: ".swiper-pagination",
+            },
+
+            // Navigation arrows
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
       </section>
       <section class="u-secondary-tonal-bg products-content">
         <h2 class="u-fs-3 l-flex l-flex--center">

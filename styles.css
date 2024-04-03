@@ -680,8 +680,39 @@ nav ul {
     color: var(--clr-light);
 }
 
-/* products section */
+/* slider in hero */
+.hero {
+    position: relative;
 
+    /* Background color of the hero section */
+    padding: 50px 0;
+    /* Adjust padding as needed */
+}
+
+.swiper-container {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 300px;
+    /* Adjust the width of the slider */
+    height: 300px;
+    /* Adjust the height of the slider */
+    overflow: hidden;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--clr-primary-bg);
+    /* Center slide content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 20px;
+    /* Adjust slide height as needed */
+}
 
 /*  cards for products */
 
