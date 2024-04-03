@@ -29,10 +29,10 @@
   </head>
   <body>
     <header>
-      <!--          main navigation of homepage -->
+      <!--          main navigation of page -->
       <nav class="navbar">
         <div class="logo u-ff-heading u-fs-3 u-secondary-bg">
-          <a class="navbar__link" href="index.htmls">logo</a>
+          <a class="navbar__link" href="index.html">Design System</a>
         </div>
         <a class="mobile-toggle" onclick="showNav()">
           <i class="fa fa-bars" aria-hidden="true"></i>
@@ -43,28 +43,29 @@
             <div class="top-nav-bar u-secondary-bg">
               <li>
                 <a
-                  class="u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link"
                   href="coming-soon.html"
                   >Products</a
                 >
               </li>
               <li>
                 <a
-                  class="u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link"
                   href="coming-soon.html"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a
-                  class="u-ff-body u-fs-1 u-fw-medium navbar__link"
-                  href="coming-soon.html"
-                  >About us</a
+                  >FAQ's</a
                 >
               </li>
               <li>
                 <a class="u-ff-body u-fs-1 u-fw-medium navbar__link" href="#"
-                  >Facebooklogo</a
+                  >About us</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  href="coming-soon.html"
+                  >facebook</a
                 >
               </li>
             </div>
@@ -297,6 +298,69 @@
           <a class="l-px-5 u-accent-color-bg u-accent-color-text l-my-1-5">
             Still have questions?
           </a>
+        </div>
+      </section>
+      <!--               contact us                   -->
+      <section class="CTA">
+        <div class="width">
+          <div class="call-to-action">
+            <div class="content3">
+              <h2>Let's cultivate togrther</h2>
+              <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante.
+              </h3>
+            </div>
+            <div class="wrapper-form">
+              <h2>Contact Form</h2>
+              <form>
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Ex: Mike"
+                />
+
+                <label for="lname">Last Name</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Ex: Smith"
+                />
+                <label for="subject">your subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="your subject"
+                  placeholder="Ex: renovation"
+                />
+
+                <label for="email"
+                  >Email <span class="label-required">* (required)</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Ex: mike@yahoo.com"
+                  required
+                />
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Type you message here..."
+                  style="height: 200px"
+                ></textarea>
+                <div class="wrapper-button">
+                  <input type="reset" value="Reset" />
+                  <input type="submit" value="Submit" />
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>

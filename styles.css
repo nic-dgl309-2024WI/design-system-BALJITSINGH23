@@ -629,11 +629,9 @@ div {
 .show-items {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: left;
-
+    align-items: flex-start;
+    text-align: left
 }
-
 
 nav ul {
     list-style-type: none;
@@ -647,6 +645,7 @@ nav ul {
     text-align: right;
     color: var(--clr-secondaryText);
     background-color: var(--clr-secondary-bg);
+
     width: 100%;
 }
 
@@ -680,6 +679,7 @@ nav ul {
     color: var(--clr-light);
 }
 
+
 /* slider in hero */
 .hero {
     position: relative;
@@ -690,10 +690,7 @@ nav ul {
 }
 
 .swiper-container {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+
     width: 300px;
     /* Adjust the width of the slider */
     height: 300px;
@@ -706,8 +703,8 @@ nav ul {
     font-size: 18px;
     background-color: var(--clr-primary-bg);
     /* Center slide content vertically */
-    display: flex;
-    justify-content: center;
+
+
     align-items: center;
     height: auto;
     border-radius: 20px;
@@ -736,6 +733,94 @@ nav ul {
     text-align: center;
 }
 
+
+/*    style for form   */
+
+input[type="reset"] {
+    color: #0e7a0d;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #d1efe3;
+}
+
+input[type="submit"] {
+    background-color: #0e7a0d;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ab66;
+}
+
+.wrapper-form {
+    text-align: initial;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.wrapper-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*                 FORM CONTROLS                        */
+
+input,
+select,
+textarea {
+    font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+
+
+.label-required {
+    font-size: 0.8rem;
+    color: red;
+}
+
+input:required {
+    border: 1px solid red;
+}
 
 
 
@@ -842,12 +927,11 @@ nav ul {
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                         STYLE OUTBACK NURSURY HOMEPAGE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     /*      STYLE FOR HEADER    */
     /*   for hiding toggle from mobile nav bar */
-    .mobile-toggle {
+    nav .mobile-toggle {
         display: none;
     }
 
     /*   for hiding items from mobile nav bar */
-
     .show-items {
         display: none;
     }
@@ -856,7 +940,7 @@ nav ul {
     .top-nav-bar {
         display: flex;
         justify-content: flex-end;
-        gap: 60px;
+        gap: 50px;
 
 
     }
@@ -872,10 +956,21 @@ nav ul {
     }
 
     .navbar__list {
-
+        display: block;
         text-align: left;
 
+        gap: 50px;
+    }
 
+
+
+    .swiper-container {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        width: 300px;
+        /* Adjust the width of the slider */
     }
 
     /*  cards for products */
