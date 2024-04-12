@@ -1,9 +1,9 @@
 /* Varibles for colors */
 :root {
     --clr-primary-bg: #e9c4a7;
-    --clr-secondary-bg: #E67079;
-    --clr-tonal-secondary-bg: #EB8D94;
-    --clr-lighttonal-secondary-bg: #F5C7CB;
+    --clr-secondary-bg: #e2e2e2;
+    --clr-tonal-secondary-bg: #b6b5b5;
+    --clr-lighttonal-secondary-bg: #ece9e9;
     --clr-primaryText: #053146;
     --clr-secondaryText: #031814;
     --clr-light: #066F14;
@@ -391,6 +391,11 @@ ol {
 
 /* 24px */
 
+
+.l-pb-3 {
+    padding-bottom: 3rem;
+}
+
 /* Axis: left */
 .l-pl-1 {
     padding-left: 1rem;
@@ -630,7 +635,7 @@ div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: right;
+    text-align: left
 }
 
 nav ul {
