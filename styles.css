@@ -1,9 +1,9 @@
 /* Varibles for colors */
 :root {
     --clr-primary-bg: #e9c4a7;
-    --clr-secondary-bg: #e2e2e2;
-    --clr-tonal-secondary-bg: #b6b5b5;
-    --clr-lighttonal-secondary-bg: #ece9e9;
+    --clr-secondary-bg: #d8d4d5;
+    --clr-tonal-secondary-bg: #f8f4f4;
+    --clr-lighttonal-secondary-bg: #eeebeb;
     --clr-primaryText: #053146;
     --clr-secondaryText: #031814;
     --clr-light: #066F14;
@@ -390,11 +390,6 @@ ol {
 }
 
 /* 24px */
-
-
-.l-pb-3 {
-    padding-bottom: 3rem;
-}
 
 /* Axis: left */
 .l-pl-1 {
@@ -886,8 +881,8 @@ input:required {
 
 .button {
     border-radius: 8px;
-    border: 1.5px solid #053146;
-    text-decoration: none;
+    border: 1.5px solid #e9c4a7;
+
 }
 
 
