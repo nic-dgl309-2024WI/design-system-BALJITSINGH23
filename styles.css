@@ -882,6 +882,7 @@ input:required {
 .button {
     border-radius: 8px;
     border: 1.5px solid #e9c4a7;
+    text-decoration: none;
 
 }
 
