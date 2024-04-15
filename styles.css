@@ -609,7 +609,7 @@ h2 {
 h3 {
     font-family: var(--font-family-body);
 
-    font-weight: var(--font-weight-normal)
+
 }
 
 p {
@@ -619,7 +619,7 @@ p {
 
 div {
     font-family: var(--font-family-body);
-    font-size: var(--font-size-2);
+
 }
 
 
@@ -682,7 +682,7 @@ nav ul {
 
 /* slider in hero */
 .hero {
-    position: relative;
+
 
     /* Background color of the hero section */
     padding: 50px 0;
@@ -691,7 +691,7 @@ nav ul {
 
 .swiper-container {
 
-    width: 300px;
+    width: ;
     /* Adjust the width of the slider */
     height: 300px;
     /* Adjust the height of the slider */
@@ -701,7 +701,7 @@ nav ul {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: var(--clr-primary-bg);
+
     /* Center slide content vertically */
 
 
