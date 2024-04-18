@@ -30,7 +30,7 @@ function toggleReadMore(button) {
   var cardContent = button.previousElementSibling;
   var readMoreText = cardContent.querySelector(".read-more");
 
-  if (readMoreText.style.display === "none") {
+  if (readMoreText.style.display === "none" || readMoreText.style.display === "") {
     readMoreText.style.display = "inline";
     button.textContent = "Read Less";
     cardContent.style.height = "auto"; // Expand to fit content
@@ -40,3 +40,8 @@ function toggleReadMore(button) {
     cardContent.style.height = "100px"; // Collapse to initial height
   }
 }
+
+// Hide extra content initially
+document.querySelectorAll(".read-more").forEach(function(element) {
+  element.style.display = "none";
+});

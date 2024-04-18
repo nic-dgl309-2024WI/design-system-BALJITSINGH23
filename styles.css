@@ -726,6 +726,23 @@ nav ul {
 }
 
 
+.card_button__readmore {
+    color: var(--clr-light);
+    /* Default color */
+    text-decoration: underline;
+    /* Underline by default */
+}
+
+.card_button__readmore:hover {
+
+    /* Change color on hover */
+    text-decoration: none;
+    /* Remove underline on hover */
+}
+
+
+
+
 /*    style for form   */
 
 input[type="reset"] {
