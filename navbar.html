@@ -17,6 +17,10 @@
     <link rel="stylesheet" type="text/css" href="design-system.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="design-system.js"></script>
+    <script
+      src="https://kit.fontawesome.com/adc216694a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="l-flex-desktop">
     <header>
@@ -50,7 +54,7 @@
               <li class="list-category u-ff-heading u-fs-0">Branding</li>
               <li>
                 <a
-                  class="u-ff-body u-fs-0 u-fw-medium navbar__link u-extra-color-text u-lh-heading"
+                  class="u-ff-body u-fs-0 u-fw-medium navbar__link u-lh-heading"
                   href="colors.html"
                   >01. Colours</a
                 >
@@ -94,20 +98,12 @@
                   >06. Images</a
                 >
               </li>
-              <li>
-                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
-                  >07. Interactive</a
-                >
-              </li>
-              <li>
-                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
-                  >08. Feedback</a
-                >
-              </li>
 
               <li class="list-category u-ff-heading u-fs-0">Navigation</li>
               <li>
-                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
+                <a
+                  class="u-ff-body u-fs-0 u-fw-medium navbar__link u-extra-color-text"
+                  href="#"
                   >09. Navbars</a
                 >
               </li>
@@ -171,148 +167,64 @@
       </nav>
     </header>
     <!------------------------------------------------MAIN CONTENT -------------------------------------------------->
-    <main class="l-mt-Add l-ml-Add l-pl-Add l-pt-3">
-      <h1>01 Colours</h1>
-      <!-- Table for primry colors -->
+    <main class="l-ml-Add l-pl-Add l-pt-3 u-fs-body navbar_content">
+      <h1>01 Navbar</h1>
+
       <h3>Primary colors</h3>
-      <table class="table">
-        <tr>
-          <th class="table__header">Swatch</th>
-          <th class="table__header">Class</th>
-          <th class="table__header">Color Code</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <!--FIRST SWATCH-->
-        <tr>
-          <td class="u-primary-bg table__data"></td>
-          <td class="table__data">u-primary-bg</td>
-          <td class="table__data">#e9c4a7</td>
-          <td class="table__data">
-            For background color of sections, articles or cards
-          </td>
-        </tr>
-        <!--SECOND SWATCH-->
-        <tr>
-          <td class="swatch u-swatch-primary-text table__data"></td>
-          <td class="table__data">u-primary-text</td>
-          <td class="table__data">#053146</td>
-          <td class="table__data">All headings</td>
-        </tr>
-      </table>
-      <!-- Table for secondary colors -->
-      <h3>Secondary colors</h3>
-      <table class="table">
-        <tr>
-          <th class="table__header">Swatch</th>
-          <th class="table__header">Class</th>
-          <th class="table__header">Color Code</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <!--THIRD SWATCH-->
-        <tr>
-          <td class="u-secondary-bg swatch table__data"></td>
-          <td class="table__data">u-secondary-bg</td>
-          <td class="table__data">#E67079</td>
-          <td class="table__data">To differentiate sections from each other</td>
-        </tr>
-        <!--FOURTH SWATCH-->
-        <tr>
-          <td class="u-secondary-tonal-bg table__data"></td>
-          <td class="table__data">u-secondary-tonal-bg</td>
-          <td class="table__data">#EB8D94</td>
-          <td class="table__data">To differentiate sections from each other</td>
-        </tr>
-        <!--FIFTH SWATCH-->
-        <tr>
-          <td class="u-secondary-lighttonal-bg table__data"></td>
-          <td class="table__data">u-secondary-lighttonal-bg</td>
-          <td class="table__data">#F5C7CB</td>
-          <td class="table__data">To differentiate sections from each other</td>
-        </tr>
-        <!--SIXTH SWATCH-->
-        <tr>
-          <td class="u-secondary-text u-swatch-secondary-text table__data"></td>
-          <td class="table__data">u-secondary-text</td>
-          <td class="table__data">#031814</td>
-          <td class="table__data">All paragraphs</td>
-        </tr>
-      </table>
-      <!-- Table for accent colors -->
-      <h3>Accent colors</h3>
-      <table class="table">
-        <tr>
-          <th class="table__header">Swatch</th>
-          <th class="table__header">Class</th>
-          <th class="table__header">Color Code</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <!--SEVENTH SWATCH-->
-        <tr>
-          <td class="u-accent-color-bg table__data"></td>
-          <td class="table__data">u-accent-color-bg</td>
-          <td class="table__data">#093658</td>
-          <td class="table__data">CTA'S and for announcemnets or news</td>
-        </tr>
-        <!--EIGHTH SWATCH-->
-        <tr>
-          <td class="u-swatch-accent-color-text table__data"></td>
-          <td class="table__data">u-accent-color-text</td>
-          <td class="table__data">#FFFFFF</td>
-          <td class="table__data">Text for all CTA's and announcemnets</td>
-        </tr>
-      </table>
-      <!-- Table for extra color text -->
-      <h3>Extra color text</h3>
-      <table class="table">
-        <tr>
-          <th class="table__header">Swatch</th>
-          <th class="table__header">Class</th>
-          <th class="table__header">Color Code</th>
-          <th class="table__header">Description</th>
-        </tr>
-        <!--NINTH SWATCH-->
-        <tr>
-          <td
-            class="u-extra-color-text u-swatch-extra-color-text table__data"
-          ></td>
-          <td class="table__data">u-extra-color-text</td>
-          <td class="table__data">#d9eeb7</td>
-          <td class="table__data">For hovers and others</td>
-        </tr>
-      </table>
-      <!-- EAXMPLE FOR SWATCHES-->
-      <div class="l-flex-desktop l-flex--between-desktop">
-        <div class="u-primary-bg u-primary-text swatch_example__width">
-          Example: All headings
-          <div>Ratio: 8.42:1 Pass</div>
-        </div>
-        <!-- EAXMPLE FOR SWATCHES-->
+      <nav class="navbar navbar_content">
         <div
-          class="u-accent-color-bg u-accent-color-text swatch_example__width"
+          class="logo u-ff-heading u-fs-3 u-secondary-bg l-pt-1-5 navbar_content"
         >
-          Example: ALL Call to actions
-          <div>Ratio: 12.49:1 Pass</div>
+          <a class="navbar__link l-pt-1-5 l-pl-1-5" href="index.html"
+            ><img
+              src="images/Screenshot 2024-04-11 193735.png"
+              width="200"
+              alt="logo"
+          /></a>
         </div>
-      </div>
-      <!-- EAXMPLE FOR SWATCHES-->
-      <div class="l-flex-desktop l-flex--between-desktop">
-        <div class="u-secondary-bg u-secondary-text swatch_example__width">
-          Example: All paragraphs
-          <div>Ratio: 6.07:1 Pass</div>
+        <a class="mobile-toggle" onclick="showNav()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <div class="nav">
+          <ul id="nav-items" class="navbar__list navbar_content">
+            <!--top nav bar -->
+            <div class="top-nav-bar u-secondary-bg l-pb-1-5">
+              <li>
+                <a
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  href="coming-soon.html"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  href="coming-soon.html"
+                  >FAQ's</a
+                >
+              </li>
+              <li>
+                <a
+                  class="u-ff-body u-fs-1 u-fw-medium navbar__link"
+                  href="coming-soon.html"
+                  >About us</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="u-extra-color-text u-ff-body u-fs-1 u-fw-medium navbar__link l-pr-1-5"
+                  href="coming-soon.html"
+                  ><i
+                    class="fa-brands fa-square-facebook fa-beat fa-lg"
+                    style="color: #12299b"
+                  ></i
+                ></a>
+              </li>
+            </div>
+          </ul>
         </div>
-        <div
-          class="u-secondary-tonal-bg u-secondary-text swatch_example__width"
-        >
-          Example: All paragraphs
-          <div>Ratio: 7.66:1 Pass</div>
-        </div>
-      </div>
-      <div
-        class="swatch_example__width u-secondary-lighttonal-bg u-secondary-text l-flex--center-desktop"
-      >
-        Example: All paragraphs
-        <div>Ratio: 12.15:1 Pass</div>
-      </div>
+      </nav>
     </main>
   </body>
 </html>

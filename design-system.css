@@ -94,7 +94,10 @@ main {
     text-align: center;
 }
 
-
+/* navbar page  style for */
+.navbar_content {
+    width: 70%;
+}
 
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {
