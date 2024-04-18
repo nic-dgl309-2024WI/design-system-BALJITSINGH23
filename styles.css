@@ -683,7 +683,7 @@ nav ul {
 
 .hero-slider {
     width: 800px;
-    height: 400px;
+    height: 300px;
     /* Adjust height as needed */
     overflow: hidden;
     position: relative;
@@ -691,7 +691,7 @@ nav ul {
 
 .slide {
     width: 800px;
-    height: 400px;
+
     position: absolute;
 
     top: 0;
@@ -873,13 +873,14 @@ input:required {
 
 .button {
     border-radius: 8px;
-    border: 1.5px solid #e9c4a7;
+
     text-decoration: none;
 
 }
 
 .button:hover {
     text-decoration: underline;
+    background-color: #40608f;
 }
 
 
