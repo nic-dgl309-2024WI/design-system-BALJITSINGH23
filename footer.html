@@ -16,16 +16,18 @@
     />
     <link rel="stylesheet" type="text/css" href="design-system.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="design-system.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/adc216694a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="l-flex-desktop">
     <header>
       <!--          main navigation of page -->
       <nav class="navbar">
         <div class="logo u-ff-heading u-fs-3 u-secondary-bg">
-          <a class="navbar__link u-extra-color-text" href="design-system.html"
-            >Design System</a
-          >
+          <a class="navbar__link" href="design-system.html">Design System</a>
         </div>
         <a class="mobile-toggle" onclick="showNav()">
           <i class="fa fa-bars" aria-hidden="true"></i>
@@ -42,9 +44,7 @@
                 >
               </li>
               <li>
-                <a
-                  class="u-ff-body u-fs-1 u-fw-medium navbar__link"
-                  href="index.html"
+                <a class="u-ff-body u-fs-1 u-fw-medium navbar__link" href="#"
                   >Demo Site</a
                 >
               </li>
@@ -102,8 +102,8 @@
               <li class="list-category u-ff-heading u-fs-0">Navigation</li>
               <li>
                 <a
-                  class="u-ff-body u-fs-0 u-fw-medium navbar__link"
-                  href="navbar.html"
+                  class="u-ff-body u-fs-0 u-fw-medium navbar__link u-extra-color-text"
+                  href="#"
                   >09. Navbars</a
                 >
               </li>
@@ -113,18 +113,14 @@
                 >
               </li>
               <li>
-                <a
-                  class="u-ff-body u-fs-0 u-fw-medium navbar__link"
-                  href="Pagintion.html"
+                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
                   >11. Pagination</a
                 >
               </li>
 
               <li class="list-category u-ff-heading u-fs-0">Blocks</li>
               <li>
-                <a
-                  class="u-ff-body u-fs-0 u-fw-medium navbar__link"
-                  href="hero.html"
+                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
                   >12. Hero</a
                 >
               </li>
@@ -135,7 +131,11 @@
                   >13. Carousel</a
                 >
               </li>
-
+              <li>
+                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
+                  >14. Slats</a
+                >
+              </li>
               <li>
                 <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
                   >15. Footer</a
@@ -151,9 +151,7 @@
                 >
               </li>
               <li>
-                <a
-                  class="u-ff-body u-fs-0 u-fw-medium navbar__link"
-                  href="form.html"
+                <a class="u-ff-body u-fs-0 u-fw-medium navbar__link" href="#"
                   >17. Forms</a
                 >
               </li>
@@ -172,5 +170,97 @@
         </div>
       </nav>
     </header>
+    <!------------------------------------------------MAIN CONTENT -------------------------------------------------->
+    <main class="l-ml-Add l-pl-Add l-pt-3 u-fs-body navbar_content">
+      <h1>01 Card</h1>
+
+      <footer class="u-secondary-bg u-fs-0">
+        <div class="container">
+          <div class="footer">
+            <div class="width">
+              <div class="footer-items">
+                <div class="footer1">
+                  <img
+                    src="images/Screenshot 2024-04-11 193735.png"
+                    width="200"
+                    alt="logo"
+                  />
+                  <p class="u-fs-body">
+                    Discover the beauty of nature with Outback Nursery. Our
+                    passion for plants is matched only by our dedication to
+                    exceptional service. Whether you're a seasoned gardener or
+                    just starting out, we're here to help you create the garden
+                    of your dreams.
+                  </p>
+                </div>
+                <div class="footer-list l-pt-1">
+                  <div class="list">
+                    <h3 class="list-name">follow us</h3>
+                    <ul class="items">
+                      <li>
+                        <a href="#" target="_blank"
+                          ><i
+                            class="fa-brands fa-square-facebook fa-s"
+                            style="color: #0f63f5"
+                          ></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i
+                            class="fa-brands fa-instagram fa-s"
+                            style="color: #ce0354"
+                          ></i
+                        ></a>
+                      </li>
+                      <li>
+                        <i
+                          class="fa-brands fa-youtube fa-s"
+                          style="color: #e10909"
+                        ></i>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="list" style="border: none">
+                    <h3 class="list-name">Contact</h3>
+                    <ul class="items u-fs-0 u-lh-body">
+                      <li>info@outbacknursery.ca</li>
+                      <li>6016 Headquarters Rd</li>
+                      <li>Courtenay, British Columbia</li>
+                      <li>V9J 1M7, Canada</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="term-con u-fs-0">
+            <div class="width">
+              <div class="term">
+                <p>Terms and conditions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="pagination" id="pagination"></div>
+      <div class="u-fs-0">
+        <div class="code-container">
+          <div class="l-ml-Add l-pl-Add">
+            <button
+              class="copy-button l-ml-Add"
+              onclick="copyCodeToClipboard()"
+            >
+              <i class="fas fa-copy"></i>
+            </button>
+          </div>
+          <pre class="code"></pre>
+        </div>
+      </div>
+    </main>
+    <script src="design-system.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
