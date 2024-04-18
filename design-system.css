@@ -120,6 +120,47 @@ main {
     width: 100%;
 }
 
+/*   style for  breadcrumbs page  */
+
+.breadcrumbs {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.breadcrumbs__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs__item {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumbs__item::after {
+    content: "/";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #999;
+}
+
+.breadcrumbs__item:last-child::after {
+    content: "";
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+
+}
+
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {
 
