@@ -99,6 +99,26 @@ main {
     width: 70%;
 }
 
+.code-container {
+
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.code {
+
+    white-space: pre-wrap;
+}
+
+.navbar_example {
+    text-align: right;
+    color: var(--clr-secondaryText);
+    background-color: var(--clr-secondary-bg);
+
+    width: 100%;
+}
+
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {
 
