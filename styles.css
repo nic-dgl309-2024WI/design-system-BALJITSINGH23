@@ -741,6 +741,43 @@ nav ul {
 }
 
 
+/* style for carousel with pagination */
+
+.carousel {
+    width: 520px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    width: 520px;
+
+    flex: 0 0 auto;
+}
+
+.pagination {
+    text-align: center;
+
+}
+
+.pagination button {
+    background-color: #ddd;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.pagination button.active {
+    background-color: #333;
+    color: white;
+}
 
 
 /*    style for form   */
