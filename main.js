@@ -22,3 +22,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   setInterval(nextSlide, 5000); // Change slide every 5 seconds
 });
+
+
+
+
+function toggleReadMore(button) {
+  var cardContent = button.previousElementSibling;
+  var readMoreText = cardContent.querySelector(".read-more");
+
+  if (readMoreText.style.display === "none") {
+    readMoreText.style.display = "inline";
+    button.textContent = "Read Less";
+    cardContent.style.height = "auto"; // Expand to fit content
+  } else {
+    readMoreText.style.display = "none";
+    button.textContent = "Read More";
+    cardContent.style.height = "100px"; // Collapse to initial height
+  }
+}
