@@ -44,6 +44,10 @@ nav ul {
 
 }
 
+.content {
+    text-align: left;
+}
+
 /* Hover state */
 
 .navbar__link {
@@ -160,6 +164,22 @@ main {
     text-decoration: underline;
 
 }
+
+/*   style for  design system page  */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+ol,
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
 
 /* ---------Media Query for Desktop nav bar-----------  */
 @media only screen and (min-width: 1073px) {
