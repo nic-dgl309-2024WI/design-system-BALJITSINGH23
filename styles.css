@@ -174,9 +174,7 @@ ol {
     font-weight: var(--font-weight-bold);
 }
 
-.u-fw-italic {
-    font-weight: var(--font-weight-italic)
-}
+
 
 .u-fw-medium {
     font-weight: var(--font-weight-medium);
@@ -698,10 +696,12 @@ nav ul {
     /* Adjust height as needed */
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
 }
 
 .slide {
     width: 800px;
+    border-radius: 10px;
 
     position: absolute;
 
